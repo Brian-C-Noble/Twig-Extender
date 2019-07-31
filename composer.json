@@ -1,0 +1,40 @@
+{
+    "name": "briancnoble/twig-extender",
+    "description": "Adds filter and function not native to Twig or Craft CMS",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "twig extender"
+    ],
+    "support": {
+        "docs": "https://github.com/briancnoble/twig-extender/blob/master/README.md",
+        "issues": "https://github.com/briancnoble/twig-extender/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Brian Noble",
+            "homepage": "https://github.com/Brian-C-Noble/"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1"
+    },
+    "autoload": {
+        "psr-4": {
+          "briancnoble\\twigextender\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Twig Extender",
+        "handle": "twig-extender",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "https://raw.githubusercontent.com/briancnoble/twig-extender/master/CHANGELOG.md",
+        "class": "briancnoble\\twigextender\\TwigExtender"
+    }
+}
