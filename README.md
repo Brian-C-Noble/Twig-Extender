@@ -24,7 +24,7 @@ To install the plugin, follow these instructions.
 
 ## Filters
 
-###vartype
+### vartype
 
 Returns the variable type
    
@@ -37,7 +37,7 @@ Returns the variable type
 
 string
 ```
-###striphttp
+### striphttp
 
 Removes the protocol from a URL.
 
@@ -49,7 +49,7 @@ Removes the protocol from a URL.
 "sunnybyte.com"
 ```
 
-###phone
+### phone
 
 Formats US phone numbers
 
@@ -68,7 +68,7 @@ $separators `string` = What to separate the phone number with.
 $parens `string` = Parenthesize the area code, **'parens'** is the only value allowed
 
 
-###truncate
+### truncate
 
 Truncates a string to specified a character limit and appends an ending to the string
 
@@ -88,9 +88,9 @@ $limit `integer` = The characters the string will be limited to.
 
 $end `string` = What will be appended to the string. _default_ ...
 
-##Functions
+## Functions
 
-###isVarType
+### isVarType
 
 Returns true if the argument matches the variable type
 ```php
@@ -125,10 +125,10 @@ _Variable Types_
 - resource
 - string 
 
-###relativeTime 
-###formatVideoUrl
-###truncate
-###oembed
+### relativeTime 
+### formatVideoUrl
+### truncate
+### oembed
 ###ordinal
 
 ## Twig Extender Roadmap
